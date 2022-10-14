@@ -9,3 +9,4 @@
 |1주차 - [DevSlem](https://github.com/DevSlem)|Strategy Pattern|[링크](Strategy%20Pattern/)|
 |2주차 - [halang](https://github.com/haryung-lee)|Composite Pattern|[링크](https://github.com/CS-PingPing/design-pattern/tree/main/Composite%20Pattern)|
 |3주차 - [Hyeonseo](https://github.com/KoHyeonSeo)|Observer Pattern|[링크](https://github.com/CS-PingPing/design-pattern/tree/main/Observer%20Pattern)|
+|4주차 - [DevSlem](https://github.com/DevSlem) | Decorator Pattern | [링크](https://github.com/CS-PingPing/design-pattern/tree/main/Decorator%20Pattern)
