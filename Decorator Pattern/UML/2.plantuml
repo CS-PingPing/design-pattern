@@ -1,0 +1,52 @@
+@startuml Duck
+
+!theme plain
+skinparam backgroundColor #FFFFFF
+scale 2
+
+class Component {
+    methodA()
+    methodB()
+}
+
+class ConcreteComponent {
+    methodA()
+    methodB()
+}
+
+class Decorator {
+    Component wrappedObj
+    methodA()
+    methodB()
+}
+
+class ConcreteDecoratorA {
+    methodA()
+    methodB()
+    newBehavior()
+}
+
+class ConcreteDecoratorB {
+    Object newState
+    methodA()
+    methodB()
+}
+
+Component <|-- ConcreteComponent
+Component <|-- Decorator
+Decorator <|-- ConcreteDecoratorA
+Decorator <|-- ConcreteDecoratorB
+
+note top of Component
+    추상 구성 요소
+end note
+
+note left of ConcreteComponent
+    구상 구성 요소
+end note
+
+note right of Decorator
+    추상 데코레이터
+end note
+
+@enduml
